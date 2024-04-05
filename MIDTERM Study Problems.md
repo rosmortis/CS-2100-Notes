@@ -1,6 +1,5 @@
-
 # Shadowing:
----
+
    > [!question]- What is variable shadowing in Java?
    > Variable shadowing in Java occurs when a local variable hides a variable with the same name at higher levels of scope.
 
@@ -22,9 +21,9 @@
    > }
    > ```
 
-   
-# Static vs Non-Static:
----
+
+# Static vs Non-Static
+
   > [!question]- Differentiate between static and non-static variables.
   > Static variables belong to the class itself, while non-static variables belong to instances of the class.
    
@@ -46,7 +45,7 @@
    > ```
 
 # Variable Scope (Local vs Instance Variables):
----
+
    > [!question]- Define local and instance variables. 
    > Local variables are declared within a method or block, while instance variables belong to a class and are accessible throughout the class.
    
@@ -69,9 +68,8 @@
 >}
 >```
 
-
 # Instance Variables vs Class Variables:
----
+
 > [!question]- Explain the difference between instance variables and class variables.
 > Instance variables are specific to each instance of a class, while class variables are shared among all instances of the class.
    
@@ -80,7 +78,6 @@
    
    > [!question]- How is the value of a class variable shared among different instances of the class?
    > The value of a class variable is shared among different instances because it belongs to the class, not individual instances.
-
    
    > [!problem]- Create a Java class representing a bank account. Implement an instance variable to store the account balance and a class variable to store the interest rate. Write methods to deposit money into the account and calculate the interest.
    > ```java
@@ -98,9 +95,8 @@
 >}
 >```
 
-
 # Constants:
----
+
    > [!question]- What are constants in Java?
    > Constants in Java are variables whose values cannot be changed once assigned.
    
@@ -118,9 +114,8 @@
    > }
    > ```
 
-
 # Equals Method:
----  
+
    > [!question]- Describe the purpose of the `equals` method in Java.
    > The equals method in Java is used to compare the equality of two objects.
    
@@ -143,9 +138,8 @@
   >  }
   > ```
 
-
 # toString Method:
----
+
    > [!question]- What is the purpose of the `toString` method in Java?
    > The toString method in Java returns a string representation of an object.
    
@@ -169,9 +163,8 @@
 >}
 >```
 
-
 # Default Constructor:
----
+
 > [!question]- What is a default constructor?
 > A default constructor is a constructor with no parameters.
    
@@ -195,7 +188,7 @@
 >```
 
 # Copy Constructor:
----
+
    > [!question]- What is a copy constructor?
    > A copy constructor is a constructor that creates a new object by copying the attributes of an existing object.
    
@@ -218,9 +211,8 @@
 >}
 >```
 
-
 # Method Overloading:
----
+
 > [!question]- Define method overloading.
 > Method overloading is the practice of defining multiple methods in the same class with the same name but different parameter lists.
 
@@ -247,9 +239,8 @@
 > 	  }
 >   }
 
-
 #  Method Overriding:
----
+
 > [!question]- Explain method overriding in Java.
 > Method overriding in Java occurs when a subclass provides a specific implementation of a method that is already provided by its superclass.
 
@@ -281,9 +272,8 @@
  >   }
 >}
 
-
 # Getters:
----
+
 > [!question]- What is the purpose of a getter method?
 > The purpose of a getter method is to retrieve the value of a private instance variable from outside the class.
 
@@ -315,7 +305,7 @@
 > ```
 
 # Setters:
----
+
 > [!question]- What is the purpose of a setter method?
 > The purpose of a setter method is to modify the value of a private instance variable from outside the class.
 
@@ -346,7 +336,7 @@
 >```
 
 #  Object References:
----
+
 > [!question]- Explain what an object reference is in Java.
 > An object reference in Java is a variable that stores the memory address of an object rather than the object itself.
 
@@ -374,9 +364,8 @@
 >}
 >```
 
-
 #  Memory Diagrams:
----
+
 > [!question]- What is a memory diagram in Java?
 > A memory diagram in Java is a visual representation of memory allocation and object references during program execution.
 
